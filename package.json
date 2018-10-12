@@ -2,14 +2,14 @@
   "name": "togglehs",
   "displayName": "Toggle Header/Source",
   "description": "Quickly switch between header/source files for C and C++ files",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "publisher": "bbenoist",
   "license": "MIT",
   "bugs": { "url": "https://github.com/bbenoist/vscode-togglehs/issues" },
   "homepage": "https://github.com/bbenoist/vscode-togglehs/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bbenoist/vscode-togglehs.git"
+    "url": "https://github.com:AndyleeSharp/vscode-togglehs.git"
   },
   "engines": {
     "vscode": "^1.0.0"
@@ -18,19 +18,19 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:togglehs.toggleHS"
+    "onCommand:yytogglehs.toggleHS"
   ],
   "main": "./out/src/extension",
   "contributes": {
     "commands": [
       {
-        "command": "togglehs.toggleHS",
+        "command": "yytogglehs.toggleHS",
         "title": "Toggle Header/Source"
       }
     ],
     "keybindings": [
       {
-        "command": "togglehs.toggleHS",
+        "command": "yytogglehs.toggleHS",
         "key": "F4"
       }
     ]
